@@ -130,10 +130,18 @@ export default function FormRegister({
           errorMessage={errors.phone?.country?.message}
           {...register("phone.country")}
         >
-          <SelectItem key="55">Brasil</SelectItem>
-          <SelectItem key="us">Estados Unidos</SelectItem>
-          <SelectItem key="1">Canadá</SelectItem>
-          <SelectItem key="7">Rússio</SelectItem>
+          <SelectItem className="text-white" key="55">
+            Brasil
+          </SelectItem>
+          <SelectItem className="text-white" key="us">
+            Estados Unidos
+          </SelectItem>
+          <SelectItem className="text-white" key="1">
+            Canadá
+          </SelectItem>
+          <SelectItem className="text-white" key="7">
+            Rússia
+          </SelectItem>
         </Select>
 
         <div className="flex gap-4">

@@ -60,7 +60,7 @@ export default function FormLogin() {
       className="w-full justify-center items-center space-y-4"
       onSubmit={handleSubmit(onSubmit)}
     >
-      <div className="flex flex-col gap-4 max-w-md">
+      <div className="flex w-full flex-col gap-4 max-w-md">
         <Input
           label="E-mail"
           labelPlacement="outside"
